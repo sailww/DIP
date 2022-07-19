@@ -1,4 +1,0 @@
-
-Training: val, Task: AC, Accuracy = 45.70%
-Training: val, Task: AP, Accuracy = 67.36%
-Training: val, Task: AR, Accuracy = 74.06%
