@@ -1,0 +1,22 @@
+trte: val
+da: uda
+output: ./object/meckps/source
+dset: office-home
+max_epoch: 100
+gpu_id: 5
+s: 1
+t: 1
+batch_size: 64
+worker: 4
+lr: 1e-2
+net: "resnet50"
+seed: 2020
+bottleneck: 256
+epsilion: 1e-5
+layer: "wn"
+smooth: 0.1
+trte : "val"
+classifier: "bn"
+model: {base_model: resnet50, pretrained_model: False}
+lr_decay1: 0.1
+interval: 15
