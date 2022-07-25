@@ -1,4 +1,4 @@
-# DIPE
+# DIP
 
 train_source_model.py : train the source model
 
